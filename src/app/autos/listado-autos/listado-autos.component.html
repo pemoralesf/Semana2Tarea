@@ -1,0 +1,8 @@
+<h3>Autos</h3>
+       <hr>
+        <ul>
+            <li *ngFor="let auto of autos">
+                {{auto.marca}} - {{auto.modelo}} - {{auto.precio | number}}
+            </li>
+
+        </ul>
